@@ -1,0 +1,28 @@
+.quantity {
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--p-8) var(--p-16);
+    align-items: baseline;
+    span {
+        font-size: var(--sm);
+        text-transform: uppercase;
+        line-height: var( --line-height-lg);
+        margin-bottom: var(--m-8);
+        margin-right: var(--m-16);
+    }
+    .quantity-input {
+        width: 120px;
+        border: 1px solid var(--gray);
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        button,
+        input {
+            max-width: 40px;
+            max-height: 40px;
+            background: transparent;
+            border: none;
+            text-align: center;
+        }
+    }
+}

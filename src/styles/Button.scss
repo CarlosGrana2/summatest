@@ -1,0 +1,23 @@
+@import 'vars';
+.Addtocart {
+    width: 100%;
+    padding: var(--p-16);
+    text-transform: uppercase;
+    font-size: var(--xs);
+    font-weight: bold;
+    background: var(--green);
+    color: var(--white);
+    border: none;
+}
+
+.primary-button {
+    background: var(--green);
+    border-radius: 24px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 42px;
+}

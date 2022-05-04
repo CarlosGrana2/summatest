@@ -1,0 +1,35 @@
+.mobile-menu {
+    padding: 24px;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid var(--very-light-pink);
+    animation: swipeDown 0.26s ease;
+    background: white;
+    .logo {
+        text-align: center;
+    }
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.mobile-menu ul {
+    padding: 0;
+    margin: 39px 0 0;
+    list-style: none;
+}
+
+.mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li {
+    margin-bottom: 39px;
+}

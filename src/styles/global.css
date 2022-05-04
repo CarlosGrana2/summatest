@@ -1,0 +1,58 @@
+@import "vars";
+@font-face {
+    font-family: 'proxima-nova';
+    font-style: normal;
+    font-weight: normal;
+    src: url('@fonts/Proxima-Nova-Font.otf') format('opentype');
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    background: #eaeaea;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+p {
+    font-size: var(--md);
+    line-height: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.main-container{
+max-width: 1140px;
+margin: 0 auto;
+}
+
+.layout {
+    margin: 0 auto;
+}

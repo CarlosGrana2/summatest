@@ -1,0 +1,52 @@
+.variantoption {
+    margin-top: var(--m-8);
+    .variantoption__content {
+        display: flex;
+        justify-content: flex-start;
+        padding: var(--p-8) var(--p-16);
+        align-items: baseline;
+        .variantoption__content-variations {
+            display: flex;
+            .variantoption__content-variations--radionButton {
+                width: fit-content;
+                input {
+                    appearance: none;
+                    cursor: pointer;
+                    background: transparent;
+                    border: 1px solid var(--gray);
+                    color: var(--text-varian);
+                    padding: 8px 6px;
+                    font-size: var(--sm);
+                    transition: all 0.1s;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                input:checked {
+                    background: var(--text-color);
+                    color: var(--white);
+                    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+                    text-shadow: 0 1px 0px #808080;
+                }
+                input:disabled {
+                    background: var(--disable);
+                    color: var(--text-varian);
+                    opacity: 0.32;
+                    border: none;
+                    cursor: not-allowed;
+                }
+                input::before {
+                    content: attr(label);
+                    text-align: center;
+                    padding: 8px 6px;
+                }
+            }
+        }
+        .variantoption__content-title {
+            font-size: var(--sm);
+            text-transform: uppercase;
+            line-height: var( --line-height-lg);
+            margin-bottom: var(--m-8);
+            margin-right: var(--m-16);
+        }
+    }
+}

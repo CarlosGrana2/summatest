@@ -1,0 +1,25 @@
+@import 'vars';
+.ProductList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 30px;
+    place-content: center;
+    margin: 32px 0 0 0;
+}
+
+.content {
+    margin: 0 auto;
+    padding:15px;
+    h1,p {
+        text-align:center
+    }
+}
+
+
+
+@media (max-width: 640px) {
+    .ProductList {
+        grid-template-columns: repeat(auto-fill, 180px);
+        gap:14px;
+    }
+}
