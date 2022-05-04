@@ -9,7 +9,7 @@ import '@styles/global.css';
 
 const App = () => {
   return (
-    <AppContext.Provider >
+    <AppContext.Provider value="">
     <BrowserRouter>
       <Layout>
         <Routes>

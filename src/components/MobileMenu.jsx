@@ -4,7 +4,7 @@ import "@styles/MobileMenu.scss";
 
 const MobileMenu = () => {
   return (
-    <div class="mobile-menu">
+    <div className="mobile-menu">
          <div className="logo">
     </div>
       <ul>
